@@ -135,8 +135,8 @@ jobs:
           echo "CHOOSENIM_CHOOSE_VERSION=1.6.2" >> $GITHUB_ENV
           export CHOOSENIM_CHOOSE_VERSION=1.6.2
           ./ci_tools_atomic_dex/ci_scripts/choosenim.sh -y
-          export PATH=/home/runner/.nimble/bin:$PATH
-          chmod +x /home/runner/.choosenim/toolchains/nim-1.6.2/bin/*
+          export PATH=/home/merlin/.nimble/bin:$PATH
+          chmod +x /home/merlin/.choosenim/toolchains/nim-1.6.2/bin/*
 
       - name: Install nim (MacOS)
         if: runner.os == 'macOS'

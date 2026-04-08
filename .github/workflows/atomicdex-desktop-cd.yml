@@ -17,7 +17,8 @@ jobs:
 
   linux-release:
     name: Linux Build/Release
-    runs-on: ubuntu-18.04
+    # runs-on: ubuntu-18.04
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2

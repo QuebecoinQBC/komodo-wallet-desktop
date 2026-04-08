@@ -12,6 +12,7 @@ env:
   DEX_COMPANY: "KomodoPlatform"
   DEX_VERSION: "0.8.2"
   DEX_WEBSITE: "https://atomicdex.io/"
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
 jobs:
 
